@@ -7,7 +7,7 @@ RUN curl -sL https://dtcooper.github.io/raspotify/install.sh | sh
 ENV SPOTIFY_NAME RaspotifySpeaker
 ENV BACKEND_NAME 'alsa'
 ENV DEVICE_NAME 'equal'
-ENV ALSA_SLAVE_PCM 'plughw:0,0'
+ENV ALSA_SLAVE_PCM 'plughw:1,0'
 ENV ALSA_SOUND_LEVEL '100%'
 ENV VERBOSE 'false'
 ENV EQUALIZATION ''
