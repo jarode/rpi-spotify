@@ -4,7 +4,7 @@ RUN apt-get update
 RUN apt-get install alsa-utils libasound2-plugin-equal gettext -y
 RUN curl -sL https://dtcooper.github.io/raspotify/install.sh | sh
 
-ENV SPOTIFY_NAME RaspotifySpeaker
+ENV SPOTIFY_NAME RaspotifySpeaker1
 ENV BACKEND_NAME 'alsa'
 ENV DEVICE_NAME 'equal'
 ENV ALSA_SLAVE_PCM 'plughw:1,0'
