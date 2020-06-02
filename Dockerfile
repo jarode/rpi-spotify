@@ -1,4 +1,4 @@
-FROM  balena/rpi-raspbian
+FROM  balenalib/rpi-raspbian
 
 RUN apt-get update
 RUN apt-get install alsa-utils libasound2-plugin-equal gettext -y
